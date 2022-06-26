@@ -1,0 +1,101 @@
+Responsive Layout: 
+box sizing 
+positioning- where to place on screen (relative, absolute, 40px, etc.)
+
+rivers in winter exercise- float left and margin right (text wraps around figure)
+
+Percent: instead of using px, can also use percentage to change size of figures, span, div sections, and more
+vh - viewport height (vmin and vmax)
+Flexible - elements change on website
+Media queries - modify css of a site depending on qualities such as viewpoint
+use @media to change width
+defined to design a layout that conforms to moving webpage
+
+flexbox- one dimensional grid layout
+accessibility- 
+tab order
+flexbox for layout - create class
+browser support - browsers ignore CSS that they don't understand
+Use feature or media queries if flexbox is not supported
+Grid - create grid container, grid track, grid cell, grid area
+defining rows and columns - create separate div containers
+grid-template-columns: defines the grid
+Explicit tracks, implicit tracks 
+grid-template-rows: define the rows (can also put space in between rows)
+grid-row and column gaps (also possible to put gaps in between each row/column)
+fr - fraction of unused space in the grid
+fr and vh define space in columns/rows in grid (units of measure)
+placing grid items and using grid-auto-flow
+grid-column-end/start is used to see horizontal ending/starting point
+(can also be used for rows - grid-row-end)
+grid-area and justify-content (uses start by default)
+justify-content is used for alignment 
+content inside of grid can be aligned by using align-content
+can also use justify-items for alignment within the grid
+align-items and justify-self
+align-self vertically left adjustment
+grid-template autofill (fills in column)
+- can also be adjusted with minmax
+grid-template-areas: fills in the area of each cell in grid with specified value (could be strings/descriptions)
+can put lines in between grid values/rows/columns by placing [middle] [end] using grid column start (and specifying middle/end)
+order can start with a -1
+grid-auto-rows: start with auto implicated rows (depending on how much space they take)
+create a grid with different cell sizes meeting together at various lengths. 
+-use grid template-rows and columns at repeat
+-use grid-column-start/end to determine where the cell will start and end
+defining flexbox: need flex container and item
+add display: flex; 
+height can be adjusted by min-height
+Need a main axis and a cross axis 
+flex-direction changes the look of flexbox such as using column-reverse (kind of right-align the table)
+flex-wrap determines what stays in the box
+align-self for aligning flexbox
+can also justify content in flexbox using flex-end and center
+align-items on cross-axis using align-items: center, baseLine, end
+use align-content to align lines across cross axis
+use align-self to align flex items individually
+use flex-grow to indivdually size cells
+likewise for flex-shrink
+flex can be used for shorthand (to list all flex table characteristics at once)
+centering content in css with flexbox (use justify-content)
+
+GitHub: 
+Place to put your entire projects
+Can revert to original/older versions of GitHub
+Distributed version control
+does full back up of data online with many clients simultaneously
+readme files are important in github (talks about whole project)
+Use github flow (from local repository to github)
+changes occur with branches
+Git is tracking and managing changes in branches
+-collaboration feature
+Pull request- show changes/add them to github
+Can choose preferred interface for Github
+Importance of command line: 
+-gives full freedom and flexibility to make changes
+-can use GUI's
+pwd, cd, ls, touch, mkdir
+(shorthand codes in command lines to establish some changes/create)
+
+
+React.js
+works with javascript
+javascript library
+download chrome with react developer tools
+Creating a react element: 
+-ReactDOM.render()
+-React.createElement{} - to create element
+-can create ordered/unordered list with react element
+Babel is a javascript compiler
+creating a react component: 
+-create by first making a function
+-in reactDOM.render() label function as tag. </>
+conditional rendering- with condition in function (can be adjusted)
+react fragments can be used to create parts
+understanding array destructuring- create a constant which consists of elements in array
+can also output to console as an array
+usestate uses the exact same state capabilities of this.state
+useEffect dependency array- depends on input of user
+fetching data with useEffect- using github API
+UseReducer - create results as opposed to using/creating a function.
+reducer "reduces" the function (inline)
