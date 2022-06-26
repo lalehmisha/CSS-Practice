@@ -1,0 +1,175 @@
+Notes on Videos: 
+
+Front End, Full Stack, and Back End Developer
+Front end developer works with design of the website
+websites are created in code editors 
+Want websites to be used across mutliple screens (Usually done simultaneously)
+Keep texts short and simple 
+Keep layout simple 
+Cursor hovers are important to show that a link is clickable 
+Start with conclusion to show your audience where they are on your page
+Bullets are for numbered content (listable)
+Everything should link back to the homepage
+Summarize each page
+Home screen is important, and it is important that your audience can link back to the home page
+home page is simple (sets everything in motion)
+
+Best way to test with audience: 
+What do you remember about this page?
+What is this site about?
+
+Detail pages - individual concepts 
+- here users are looking for facts/information
+About Us page: chance to make an impression (make or break)
+
+Use graphics for explanation (not to draw away from content)
+
+UX Accesibilty 
+For blind people, don't realize that they are at the end of the form
+Develop the desing that you want
+
+Need text titles 
+How to work with someone with low vision (footers)
+
+HTML: Hyper Text Markup Language
+CSS: Cascading Style Sheets - defines styling
+JavaScript: provides interactivty
+
+<p </p> (opening and closing tabs)
+DOM tree 
+HTML is nested 
+
+<q> element is for quotes
+<p> paragraphs
+
+Inline elements (wrapped around phrases of texts) 
+Use <time> for time inline
+
+<br> to break a line 
+<pre> to follow breaks written in HTML
+<ul> unordered lists (bullets) 
+<ol> ordered list (numbered) 
+Subscripts and superscripts in HTML - use <sub> and <sup> 
+MathML are markup for math formulas/equations
+
+<small> can lower font and convey meaning of the design/website. - must be repeated. 
+
+Go to inspect element on a website and see developer tools
+left HTML, right CSS -> see different panes layouts, fonts, etc. 
+
+Click on triangle and can see more relevant code/HTML and CSS - to see how other developers use HTML to structure their website
+
+Global attributes and id attribute 
+HTML allows functionality of the website
+Does not save input on its own - retains its design
+ARIA roles - HTML attributes that procide accessible information to people with disabilities - very important that the website is usable by everyone
+Open DevTools - to see accesibility tree
+
+HTML uses words rather than shorthand English (around since the 80's)
+put a slash at the end instead of repeating 
+At this point, it does not matter how you write it, as long as the design is shown and functional. 
+Websites can handle all kinds of code formatting. 
+&nbsp to break a space (non breaking spaces) 
+
+How to make links on the web: 
+Teleport to another page. 
+The anchor element: <a href .. /> hyper reference element 
+HTTP: Hypertext Transport Protocol 
+HTTPS: Hypertext Transport Protocol Secure
+
+Want links to point to all files on the local (where to find the files) 
+How to form a URL from scratch - look inside folder and use slashes to go to the next folder
+../ go up one level 
+To go to a folder and open that HTML file (how websites work) 
+
+Make a navigation bar - using ahref 
+Using CSS, the navigation bar looks visually appealing otherwise plain HTML will show it as a list
+
+<img> to input images, need width and height of image 
+Also need it to be accessible with people with disabilities
+image needs a link to (src) inside <img> 
+Order does not matter within an HTML layout
+better to have width and height image size before (to avoid jumping text)
+GIF - can be transparent/limit 
+SVG - vector files/can be physically small or large and retain its quality
+JPG - image format for compressing photos/can make site slow if uncompressed
+PNG - images that need transparency/good at compression
+Images use pixels -> don't want to use high resolution photos (makes site slow and downloading site a problem)
+Take network speed into account
+More data can be shown on a screen
+As a result, create more copies of photos
+Can source set image to display the best image (if you have the same image with multiple resolutions)
+- it will choose the best resolution picture for given screen 
+Sizes attributes 
+Use picture element to crop element to display (possibly part of the image depending on screen)
+<figure> and <figcaption> to use for figures/pictures and caption them. 
+<audio> element to add audio - can use autoplay and loop audio
+File formats: 
+	- MP3
+	-OGGs
+	-Avi (possibly)
+Similar to audio, switch between better videos depending on networks (adaptive video)
+Not everyone can hear (either by choice or by disability) - use captions to create more accessibility
+kind = "chapters" to allow users to jump from specific points of the video to another
+Embed the video player from a video hosting service (vimeo, YouTube, etc.)
+
+Lang attribute = the language that our website is in 
+Usually will use lang="en-Us" 
+	-language (alphabet)
+	-script
+Specify direction of flow of language using <dir>
+<charset> represents characters and symbols that websites understand (ASCII, Unicode)
+<meta charset ="ut-8">
+Semantic HTML- use proper HTML element at hand
+<div> block level element
+<span> inline element
+Use div and span as a last resort when there is no proper element
+
+Start with doctype declaration and then wrap with HTML element
+head and body element - keys of building webpages
+meta elements only used inside the heads
+description will show in Google Search
+meta tags are used to create links as an icon
+Put things you want to load on the top
+head is never seen by users.
+script element (at the end of HTML document and sometimes in the head)
+main, header, footer elements
+article is wrapped around an element that is an article
+
+<form></form> to create a form in HTML document (gets input from user while labels says what it wants from user)
+Must hook form somewhere to send data otherwise it will not work. 
+collect text with the type of input
+placeholder text disappears
+Adding CSS, forms can be styled
+Users need to fill in forms with https// (on a secure website)
+Use <textarea> for large messages (carries more characters)
+Can include a checkbox using <legend> and setting it to checkbox
+
+Use HTML table to create tabular data
+button use button element
+Examples to use HTML table: 
+	-charts to portray information
+	-election results
+	-comparisons(quick comparisons ex: item comparisons)
+Does using a table make it easier to portray the content in clear way?
+<table> wraps table
+<tr> table row
+<th> table header
+<td> table data
+MDN website- gives standard defintions to each of the elements in HTML
+
+CSS Styles: 
+Resizing images 
+better to code in HTML and then add CSS styles
+Retina (pixel size)- high density screen
+Resize thumbnails to 600 px and background images to 1600-2100 px
+Use an image twice the size
+Bandwidth is used when data is loaded
+Do NOT use hotlinks
+W3C - World consortium - use documentation to see CSS styles 
+MDN - Mozilla firefox CSS cascading style sheets to stay up to date
+CSS Syntax: 
+img {} (declaration style rules)
+Shorthand and longhand coding 
+CSS comments = */ /*
+
